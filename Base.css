@@ -1,0 +1,28 @@
+
+  #GFG {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#GFG::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    /* Specify the background image to be used */
+    background-image: url(pic/stashed-flour-used-cooking.jpg);
+    background-size: cover;
+    opacity: 0.2;
+}
+@font-face {
+  font-family: Myfreefont;
+  src: url(PitagonSerif-Black-BF641cfdbe8c504.otf);
+}
+div{
+  font-family: Myfreefont;
+}
